@@ -1,0 +1,29 @@
+/* Prpject css*/
+.project{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, 'popins';
+    background-color: aquamarine;
+}
+.navbar{
+    background-color: rgb(194, 40, 40);
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    display: flex;
+
+}
+.navbar .navbar-items li{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    text-align: right;
+}
+.navbar .navbar-items li a{
+    text-decoration: none;
+    display: absolute;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: right;
+}
